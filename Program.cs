@@ -141,16 +141,16 @@ namespace COMPortReader
                 Console.WriteLine("freq (902000000 to 928000000): ");
                 temp = Console.ReadLine();
                 if(temp != "")  freq = int.Parse(temp);
-                Console.WriteLine("bw: ");
+                Console.WriteLine("bw (125 250 500): ");
                 temp = Console.ReadLine();
                 if(temp != "")  bw = int.Parse(temp);
-                Console.WriteLine("power: ");
+                Console.WriteLine("power(2 to 20): ");
                 temp = Console.ReadLine();
                 if(temp != "")  pwr = int.Parse(temp);
-                Console.WriteLine("sf: ");
+                Console.WriteLine("sf (sf7 sf8 sf9 sf10 sf11 sf12): ");
                 temp = Console.ReadLine();
                 if(temp != "")  SF = temp;
-                Console.WriteLine("coderate: ");
+                Console.WriteLine("coderate(4/5 4/6 4/7 4/8): ");
                 temp = Console.ReadLine();
                 if(temp != "")  cr = temp;
 
@@ -308,7 +308,7 @@ namespace COMPortReader
                     _serialPort.Write(packet);
                     Console.WriteLine("TX packet: {0}", packet);
                     string message = _serialPort.ReadLine();
-                    Console.WriteLine("count {0} {1}",tx_count,message);
+                    Console.WriteLine("{0}",message);
 
                     
                     // message = _serialPort.ReadLine();

@@ -1,0 +1,37 @@
+Added Component: Designator=D1(LED SMD 0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D2(LED SMD 0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=D3(LED SMD 0805)
+Add component. Clean all parameters for all variants
+Added Component: Designator=R2(0805 RESISTOR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R3(0805 RESISTOR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Component: Designator=R4(0805 RESISTOR)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Value"; Value = "R1/4W - 1K"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D1-2
+Added Pin To Net: NetName=GND Pin=D2-2
+Added Pin To Net: NetName=GND Pin=D3-2
+Added Pin To Net: NetName=3V3 Pin=R2-1
+Added Pin To Net: NetName=GPIO0/RA0 Pin=R3-1
+Added Pin To Net: NetName=GPIO1/RA1 Pin=R4-1
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=R2-2
+Added Net: Name=NetD1_1
+Added Pin To Net: NetName=NetD2_1 Pin=D2-1
+Added Pin To Net: NetName=NetD2_1 Pin=R3-2
+Added Net: Name=NetD2_1
+Added Pin To Net: NetName=NetD3_1 Pin=D3-1
+Added Pin To Net: NetName=NetD3_1 Pin=R4-2
+Added Net: Name=NetD3_1
+Added Member To Class: ClassName=Sheet1 Member=Component D1 LED
+Added Member To Class: ClassName=Sheet1 Member=Component D2 LED
+Added Member To Class: ClassName=Sheet1 Member=Component D3 LED
+Added Member To Class: ClassName=Sheet1 Member=Component R2 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R3 220
+Added Member To Class: ClassName=Sheet1 Member=Component R4 220
+Added Room: Name=Sheet1
